@@ -208,7 +208,7 @@ export function AvatarDemo() {
         <AvatarFallback>VC</AvatarFallback>
       </Avatar>
       <Avatar>
-        <AvatarImage src="https://github.com/shadcn.png" />
+        <AvatarImage src="https://github.com/fsxdev.png" />
         <AvatarFallback>SC</AvatarFallback>
       </Avatar>
       <Avatar>
