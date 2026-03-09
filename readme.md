@@ -63,70 +63,6 @@ Each component ships with:
 - ✦ Tailwind CSS classes
 - ✦ Copy-paste ready
 
----
-
-## ◼ Getting Started
-
-```bash
-# 1. Clone the repo
-git clone https://github.com/yourusername/nds4d.git
-cd nds4d
-
-# 2. Install dependencies
-npm install
-
-# 3. Run dev server
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) and start copying.
-
----
-
-## ◼ Usage
-
-Browse to any component, hit **copy**, paste into your project. That's it.
-
-For shadcn/ui setup in your own project:
-
-```bash
-npx shadcn@latest init
-```
-
-Then add individual components:
-
-```bash
-npx shadcn@latest add button
-npx shadcn@latest add card
-npx shadcn@latest add badge
-# etc.
-```
-
----
-
-## ◼ Project Structure
-
-```
-nds4d/
-├── app/
-│   ├── layout.tsx          # Root layout + metadata
-│   └── page.tsx            # Main docs page
-├── components/
-│   ├── ui/                 # shadcn/ui primitives
-│   ├── component-card.tsx  # Preview + code card
-│   ├── code-block.tsx      # Syntax highlighted block
-│   ├── docs-header.tsx     # Fixed top nav
-│   └── docs-sidebar.tsx    # Collapsible sidebar
-├── lib/
-│   └── component-examples.ts  # All component code/metadata
-└── public/
-    ├── manifest.json
-    ├── browserconfig.xml
-    └── favicon-*/          # Full favicon set
-```
-
----
-
 ## ◼ PWA
 
 NDS4D ships as a Progressive Web App out of the box.
@@ -136,7 +72,6 @@ NDS4D ships as a Progressive Web App out of the box.
 - Full favicon set (57px → 512px)
 - Dark `theme_color` (`#0a0a0a`)
 
----
 
 ## ◼ License
 
