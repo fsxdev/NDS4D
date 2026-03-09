@@ -3,6 +3,7 @@
 import { cn } from "@/lib/utils"
 import { ChevronDown, Search, Layers } from "lucide-react"
 import { useState, useEffect } from "react"
+import { componentsRegistry, sections as sectionNames } from "@/lib/components-registry"
 
 interface SidebarSection {
   title: string
@@ -12,53 +13,12 @@ interface SidebarSection {
     isNew?: boolean
   }[]
 }
-
-const sections: SidebarSection[] = [
-  {
-    title: "Getting Started",
-    items: [
-      { name: "Introduction", id: "introduction" }
-    ],
-  },
-  {
-    title: "Form",
-    items: [
-      { name: "Button", id: "button" },
-      { name: "Checkbox", id: "checkbox" },
-      { name: "Input", id: "input" },
-      { name: "Switch", id: "switch" },
-    ],
-  },
-  {
-    title: "Data Display",
-    items: [
-      { name: "Avatar", id: "avatar" },
-      { name: "Badge", id: "badge" },
-      { name: "Card", id: "card" },
-      { name: "Skeleton", id: "skeleton" },
-    ],
-  },
-  {
-    title: "Feedback",
-    items: [
-      { name: "Alert", id: "alert" },
-      { name: "Tooltip", id: "tooltip" },
-    ],
-  },
-  {
-    title: "Navigation",
-    items: [
-      { name: "Tabs", id: "tabs" },
-    ],
-  },
-  {
-    title: "Layout",
-    items: [
-      { name: "Separator", id: "separator" },
-    ],
-  },
-]
-
+const sections = sectionNames.map(title => ({
+  title,
+  items: componentsRegistry
+    .filter(c => c.section === title)
+    .map(c => ({ name: c.title, id: c.id, isNew: c.isNew }))
+}))
 export function DocsSidebar() {
   const [expandedSections, setExpandedSections] = useState<string[]>(
     sections.map((s) => s.title)
@@ -158,10 +118,10 @@ const handleNavClick = (e: React.MouseEvent<HTMLButtonElement>, id: string) => {
                     >
                       <span>{item.name}</span>
                       {item.isNew && (
-                        <span className="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-foreground text-background">
-                          NEW
-                        </span>
-                      )}
+                          <span className="text-[9px] font-semibold px-1.5 py-0.5 rounded bg-foreground text-background">
+                             NEW
+                          </span>
+                          )}
                     </button>
                   </li>
                 ))}

@@ -27,27 +27,6 @@ export function DocsHeader() {
             <AnimatedLogo size={28} />
             <span className="font-semibold text-foreground hidden sm:inline group-hover:text-muted-foreground transition-colors">NDS4D</span>
           </Link>
-
-          <nav className="hidden md:flex items-center gap-6">
-            <Link
-              href="/"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Docs
-            </Link>
-            <Link
-              href="/#components"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Components
-            </Link>
-            <Link
-              href="/#examples"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Examples
-            </Link>
-          </nav>
         </div>
       </div>
 
