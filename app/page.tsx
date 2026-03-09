@@ -1,19 +1,4 @@
 "use client"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import { DocsSidebar } from "@/components/docs-sidebar"
 import { DocsHeader } from "@/components/docs-header"
 import { ComponentCard } from "@/components/component-card"
@@ -78,7 +63,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Features Sec */}
+     
           <section className="border-b border-border bg-secondary/20">
             <div className="max-w-4xl mx-auto px-6 py-16">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -113,7 +98,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Components Sec */}
+       
           <section className="py-16" id="components">
             <div className="max-w-4xl mx-auto px-6">
               <div className="mb-12">
@@ -124,7 +109,7 @@ export default function Home() {
               </div>
 
               <div className="space-y-10">
-                {/* Bttn */}
+              
                 <div id="button">
                   <ComponentCard
                     title={componentExamples.button.title}
@@ -144,7 +129,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Badge */}
+              
                 <div id="badge">
                   <ComponentCard
                     title={componentExamples.badge.title}
@@ -163,7 +148,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Card */}
+                
                 <div id="card">
                   <ComponentCard
                     title={componentExamples.card.title}
@@ -190,7 +175,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Input */}
+               
                 <div id="input">
                   <ComponentCard
                     title={componentExamples.input.title}
@@ -207,7 +192,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Checkbox */}
+              
                 <div id="checkbox">
                   <ComponentCard
                     title={componentExamples.checkbox.title}
@@ -224,7 +209,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Avatar */}
+               
                 <div id="avatar">
                   <ComponentCard
                     title={componentExamples.avatar.title}
@@ -250,7 +235,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Alert */}
+              
                 <div id="alert">
                   <ComponentCard
                     title={componentExamples.alert.title}
@@ -270,7 +255,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Tabs */}
+               
                 <div id="tabs">
                   <ComponentCard
                     title={componentExamples.tabs.title}
@@ -295,7 +280,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Tooltip */}
+              
                 <div id="tooltip">
                   <ComponentCard
                     title={componentExamples.tooltip.title}
@@ -318,7 +303,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Switch */}
+               
                 <div id="switch">
                   <ComponentCard
                     title={componentExamples.switch.title}
@@ -335,7 +320,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Skeleton */}
+               
                 <div id="skeleton">
                   <ComponentCard
                     title={componentExamples.skeleton.title}
@@ -355,7 +340,7 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Separator */}
+           
                 <div id="separator">
                   <ComponentCard
                     title={componentExamples.separator.title}
@@ -389,7 +374,7 @@ export default function Home() {
             </div>
           </section>
 
-          {/* Footer */}
+        
           <footer className="border-t border-border py-8">
             <div className="max-w-4xl mx-auto px-6">
               <div className="flex flex-col md:flex-row items-center justify-between gap-4">
