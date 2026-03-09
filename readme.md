@@ -13,7 +13,7 @@
 
 [![Version](https://img.shields.io/badge/version-1.0.0-white?style=flat-square&labelColor=0a0a0a)](.)
 [![License](https://img.shields.io/badge/license-MIT--Commons--Clause-white?style=flat-square&labelColor=0a0a0a)](./LICENSE)
-[![Next.js](https://img.shields.io/badge/Next.js-15-white?style=flat-square&labelColor=0a0a0a&logo=nextdotjs&logoColor=white)](https://nextjs.org)
+[![Next.js](https://img.shields.io/badge/Next.js-16-white?style=flat-square&labelColor=0a0a0a&logo=nextdotjs&logoColor=white)](https://nextjs.org)
 [![Tailwind](https://img.shields.io/badge/Tailwind-4-white?style=flat-square&labelColor=0a0a0a&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
 [![shadcn/ui](https://img.shields.io/badge/shadcn%2Fui-latest-white?style=flat-square&labelColor=0a0a0a)](https://ui.shadcn.com)
 
@@ -39,11 +39,10 @@ No npm install. No config hell. Just copy the code.
 
 | Layer | Technology |
 |---|---|
-| Framework | Next.js 15 (App Router) |
+| Framework | Next.js 16.1 |
 | Styling | Tailwind CSS v4 |
 | Components | shadcn/ui + Radix UI |
 | Language | TypeScript |
-| Analytics | Vercel Analytics |
 | Font | Geist + Geist Mono |
 
 ---
