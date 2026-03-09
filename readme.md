@@ -67,19 +67,8 @@ commercial projects. However, you may NOT sell, rebrand, or republish
 this project or any substantial portion of it as your own product
 or service without explicit written permission from the author.
 ```
-
-See [LICENSE](./LICENSE) for full terms.
-
----
-
 <div align="center">
-
 <br/>
-
-```
-built in the dark  ·  for devs who ship
-```
-
 <br/>
 
 **[⬆ back to top](#)**
