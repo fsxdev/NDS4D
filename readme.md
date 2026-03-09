@@ -71,6 +71,5 @@ or service without explicit written permission from the author.
 <br/>
 <br/>
 
-**[⬆ back to top](#)**
 
 </div>
