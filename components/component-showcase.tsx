@@ -2,8 +2,7 @@
 
 import { componentsRegistry } from "@/lib/components-registry"
 import { ComponentCard } from "@/components/component-card"
-
-// UI Components
+// COMPONENTS 
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { AlertDialog, AlertDialogAction, AlertDialogCancel, AlertDialogContent, AlertDialogDescription, AlertDialogFooter, AlertDialogHeader, AlertDialogTitle, AlertDialogTrigger } from "@/components/ui/alert-dialog"
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert"

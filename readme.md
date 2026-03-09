@@ -60,28 +60,16 @@ NDS4D ships as a Progressive Web App out of the box.
 ```
 MIT License + Commons Clause
 
-Copyright (c) 2025 NDS4D
+Copyright (c) 2026 NDS4D
 
 Permission is granted to use this software freely in personal and
 commercial projects. However, you may NOT sell, rebrand, or republish
 this project or any substantial portion of it as your own product
 or service without explicit written permission from the author.
 ```
-
-See [LICENSE](./LICENSE) for full terms.
-
----
-
 <div align="center">
-
+<br/>
 <br/>
 
-```
-built in the dark  ·  for devs who ship
-```
-
-<br/>
-
-**[⬆ back to top](#)**
 
 </div>

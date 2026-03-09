@@ -29,35 +29,6 @@ export function DocsHeader() {
           </Link>
         </div>
       </div>
-
-      {/* Mobile Menu */}
-      {mobileMenuOpen && (
-        <div className="md:hidden border-t border-border bg-background p-4">
-          <nav className="flex flex-col gap-3">
-            <Link
-              href="/"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Docs
-            </Link>
-            <Link
-              href="/#components"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Components
-            </Link>
-            <Link
-              href="/#examples"
-              className="text-sm text-muted-foreground hover:text-foreground transition-colors"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Examples
-            </Link>
-          </nav>
-        </div>
-      )}
     </header>
   )
 }
