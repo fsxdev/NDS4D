@@ -45,24 +45,6 @@ No npm install. No config hell. Just copy the code.
 | Language | TypeScript |
 | Font | Geist + Geist Mono |
 
----
-
-## ◼ Components
-
-<table>
-<tr><td><strong>Form</strong></td><td>Button · Checkbox · Input · Switch</td></tr>
-<tr><td><strong>Data Display</strong></td><td>Avatar · Badge · Card · Skeleton</td></tr>
-<tr><td><strong>Feedback</strong></td><td>Alert · Tooltip</td></tr>
-<tr><td><strong>Navigation</strong></td><td>Tabs</td></tr>
-<tr><td><strong>Layout</strong></td><td>Separator</td></tr>
-</table>
-
-Each component ships with:
-- ✦ Live preview
-- ✦ Component source code
-- ✦ Tailwind CSS classes
-- ✦ Copy-paste ready
-
 ## ◼ PWA
 
 NDS4D ships as a Progressive Web App out of the box.
