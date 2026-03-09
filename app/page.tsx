@@ -32,9 +32,6 @@ export default function Home() {
                 A collection of accessible, reusable components with dark styling for modern web applications. Copy component code or Tailwind CSS classes directly.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <Button size="lg" className="gap-2">
-                  Get Started <ArrowRight className="h-4 w-4" />
-                </Button>
                 <Button size="lg" variant="outline" asChild>
                   <a href="https://github.com/fsxdev/NDS4D" target="_blank">View on GitHub</a>
                 </Button>
